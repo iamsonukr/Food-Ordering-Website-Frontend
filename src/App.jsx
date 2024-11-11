@@ -13,8 +13,8 @@ const App = () => {
     <>
     {showLogin?<LoginPopup setShowLogin={setShowLogin}/>:<></>}
     {console.log(showLogin)}
-      <div className='app'>
         <Navbar setShowLogin={setShowLogin} />
+      <div className='app'>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/cart' element={<Cart />} />
