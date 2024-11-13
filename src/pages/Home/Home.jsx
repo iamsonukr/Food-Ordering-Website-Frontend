@@ -4,6 +4,7 @@ import ExploreMenu from '../../components/ExploreMenu/ExploreMenu'
 import FoodDisplay from '../../components/FoodDisplay/FoodDisplay'
 import AppDownload from '../../components/AppDownload/AppDownload'
 import OurChefs from '../../components/OurChefs/OurChefs'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const Home = () => {
   const[category,setCategory]=useState("All")
@@ -16,6 +17,7 @@ const Home = () => {
         <OurChefs/>
         <ExploreMenu category={category} setCategory={setCategory} />
         <FoodDisplay category={category}/>
+        <Testimonials/>
         <AppDownload/>
     </div>
   )

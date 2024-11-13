@@ -63,12 +63,12 @@
 
 /* Button for Order or Cart */
 .navbar-right button {
-    background-color: #ff6f3c;
-    color: white;
+    /* background-color: #ff6f3c; */
+    color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 10px 25px;
-    border: none;
-    border-radius: 25px;
+    border: 2px solid tomato;
+    border-radius: 15px 0px ;
     cursor: pointer;
     transition: background 0.3s ease;
 }

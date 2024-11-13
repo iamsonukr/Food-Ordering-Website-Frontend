@@ -19,6 +19,7 @@ const StoreContextProvider=(prop)=>{
         }else{
             setCartItems((prev)=>({...prev,[itemId]:prev[itemId]+1}))
         }
+      
     }
 
     // function to remove from cart
